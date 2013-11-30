@@ -1,0 +1,19 @@
+{
+  "asi": false,
+  "boss": false,
+  "browser": true,
+  "curly": true,
+  "eqeqeq": true,
+  "eqnull": true,
+  "es3": true,
+  "es5": false,
+  "evil": true,
+  "immed": true,
+  "indent": 2,
+  "latedef": true,
+  "newcap": false,
+  "noarg": true,
+  "sub": true,
+  "undef": true,
+  "unused": true
+}
