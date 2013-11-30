@@ -12,7 +12,7 @@ module.exports = function(grunt) {
   
     // Metadata.
     pkg: grunt.file.readJSON('package.json'),
-    banner: '/*! <%= pkg.title || pkg.name %> - v<%= pkg.version %>\n' +
+    banner: '/*! <%= pkg.name %> (<%= pkg.title %>) - v<%= pkg.version %>\n' +
       '<%= pkg.homepage ? "* " + pkg.homepage + "\\n" : "" %>' +
       '* Copyright (c) <%= grunt.template.today("yyyy") %> <%= pkg.author.name %>;' +
       ' Licensed <%= _.pluck(pkg.licenses, "type").join(", ") %> */\n',
@@ -51,7 +51,7 @@ module.exports = function(grunt) {
         stripBanners: true
       },
       dist: {
-        src: ['src/<%= pkg.name %>.js'],
+        src: ['src/browser-require.js'],
         dest: 'dist/<%= pkg.name %>.js'
       }
     },
@@ -62,7 +62,7 @@ module.exports = function(grunt) {
         report: 'min'
       },
       dist: {
-        src: ['src/<%= pkg.name %>.js'],
+        src: ['src/browser-require.js'],
         dest: 'dist/<%= pkg.name %>.min.js'
       }
     },

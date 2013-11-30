@@ -1,16 +1,19 @@
 {
-  "name": "browser-require",
-  "version": "0.1.0",
-  "description": "A limited, browser-based version of Node's `require` that utilizes synchronous `XMLHttpRequest`s and `window.eval` instead of mandatory precompilation build steps. Terrible for performance, nice for dynamic ease of use.",
+  "name": "breq",
+  "title": "browser-require",
+  "version": "0.2.0",
+  "description": "A client-side CommonJS `require` implementation that does NOT require a precompilation build step nor server-side middleware. It instead utilizes synchronous `XMLHttpRequest`s and `eval` instead, which does impose a series of limitations unless you're willing to generate a whole mess of `404`s. Terrible for performance, nice for dynamic ease of use.",
   "keywords": [
     "browser",
-    "require"
+    "require",
+    "commonjs",
+    "browser-require"
   ],
-  "homepage": "https://github.com/JamesMGreene/browser-require",
+  "homepage": "https://github.com/JamesMGreene/breq",
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/JamesMGreene/browser-require/blob/master/LICENSE"
+      "url": "https://github.com/JamesMGreene/breq/blob/master/LICENSE"
     }
   ],
   "author": {
@@ -20,10 +23,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/JamesMGreene/browser-require.git"
+    "url": "https://github.com/JamesMGreene/breq.git"
   },
   "bugs": {
-    "url": "https://github.com/JamesMGreene/browser-require/issues"
+    "url": "https://github.com/JamesMGreene/breq/issues"
   },
   "devDependencies": {
     "qunitjs": "~1.12.0",
@@ -36,7 +39,7 @@
     "grunt-contrib-watch": "~0.5.3",
     "grunt-contrib-concat": "~0.3.0"
   },
-  "main": "./browser-require.js",
+  "main": "./src/browser-require.js",
   "scripts": {
     "test": "grunt travis --verbose"
   }
