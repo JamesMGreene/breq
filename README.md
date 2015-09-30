@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/JamesMGreene/breq.png)](https://travis-ci.org/JamesMGreene/breq)
+[![Build Status](https://travis-ci.org/JamesMGreene/breq.png?branch=master)](https://travis-ci.org/JamesMGreene/breq)
 
 # breq
 
