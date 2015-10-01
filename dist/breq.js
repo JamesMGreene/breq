@@ -1,6 +1,6 @@
-/*! breq (browser-require) - v0.1.0
+/*! breq (browser-require) - v0.2.1
 * https://github.com/JamesMGreene/breq
-* Copyright (c) 2013 James M. Greene; Licensed MIT */
+* Copyright (c) 2015 James M. Greene; Licensed MIT */
 (function() {
   "use strict";
 

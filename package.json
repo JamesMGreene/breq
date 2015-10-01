@@ -1,7 +1,7 @@
 {
   "name": "breq",
   "title": "browser-require",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A client-side CommonJS `require` implementation that does NOT require a precompilation build step nor server-side middleware. It instead utilizes synchronous `XMLHttpRequest`s and `eval` instead, which does impose a series of limitations unless you're willing to generate a whole mess of `404`s. Terrible for performance, nice for dynamic ease of use.",
   "keywords": [
     "browser",
@@ -19,7 +19,7 @@
   "author": {
     "name": "James M. Greene",
     "email": "james.m.greene@gmail.com",
-    "url": "http://jamesgreene.net/"
+    "url": "http://greene.io/"
   },
   "repository": {
     "type": "git",
